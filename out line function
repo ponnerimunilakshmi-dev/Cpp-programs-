@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class rectangle
+{
+	private:
+		int length;
+		int width;
+	public:
+		width
+		rectangle(int l,int W)
+		length=l;
+		width=W;
+}
+friend int calculate.area(rectangle r)
+{
+	rectangle
+	return r.length*width;
+}
+int main()
+{
+	rectangle rect(10.5);
+	int area=calculate area(rect;
+	cout<<"area of recctangle="<<area<<endl;
+	return 0;)
+}
