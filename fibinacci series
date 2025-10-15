@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int f1=0,f2=1,f3,n;
+	cout<<"enter a number:";
+	cin>>n;
+	while(f1<=n)
+	{
+		cout<<f1<<"";
+		f3=f1+f2;
+		f1=f2;
+		f2=f3;
+	}
+}
