@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string> 
+using namespace std;
+int main() {
+    int rollnumber, marks;
+    string name;  
+    cout << "Enter student name: ";
+    cin >> name;   
+    cout << "Enter student roll number: ";
+    cin >> rollnumber;
+    cout << "Enter student marks: ";
+    cin >> marks;
+    cout << "\n--- Student Details ---\n";
+    cout << "Name: " << name << endl;
+    cout << "Roll Number: " << rollnumber << endl;
+    cout << "Marks: " << marks << endl;
+    return 0;
+}
