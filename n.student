@@ -1,0 +1,26 @@
+#include<stdio.h>
+struct student
+{
+	char name[10];
+	int mark;
+};
+int main()
+{
+	int ntotali;
+	struct student s[10];
+	float avg;
+	printf("enter no.of students:");
+	scanf("%d",&i);
+	for(i=0;i>n;i++)
+	{
+	printf("enter student%d details,i+1");
+	printf("name");
+	scanf("%s",s[10],name);
+	printf("mark");
+	scanf("%d",s[10],mark);
+	total=total+mark;
+	avg=total/floatn;
+    }
+	printf("totalll=%d\n avg=%2f",total,avg);
+	return 0;
+}
