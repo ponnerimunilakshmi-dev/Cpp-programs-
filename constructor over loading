@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+class rectangle
+{
+	private:
+		int length;
+		int width;
+	public:
+		rectangle()
+		{
+			length=0;
+			width=0;
+			cout<<"default constructer called."<<endl;
+		}
+		rectangle(int l)
+		{
+			length=1;
+			width=0;
+			cout<<"constructer with one parameter called."<<endl;
+		}
+		rectangle(int l,int w)
+		{
+			length=1;
+			width=w;
+			cout<<"costructer with two parameters called."<<endl;
+		}
+		void displayarea()
+		{
+			cout<<"Area="<<(length*width)<<endl;
+		}
+};
+int main()
+{
+	rectangle r1;
+	rectangle r2(10);
+	rectangle r3(10,20);
+	r1.displayarea();
+	r2.displayarea();
+	r3.displayarea();
+	return 0;
+}
