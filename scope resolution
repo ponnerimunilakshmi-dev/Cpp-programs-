@@ -1,0 +1,38 @@
+#include<iostream>
+int var =100;
+namespace firstspace
+{
+	int var =1;
+	void display()
+	{
+		std::cout<<"inside firstspace,var ="<<var<<std::endl;
+	}
+}
+namespace secondspace
+{
+	int var =2;
+	void display()
+	{
+		std::cout<<"inside secondspace,var ="<<var<<std::endl;
+	}
+}
+class sample
+{
+	public:
+		void show();
+};
+void sample::show()
+{
+	std::cout<<"inside sample::show() function."<<std::endl;
+}
+int main()
+{
+	int var=10;
+	std::cout<<"local var ="<<var<<std::endl;
+	std::cout<<"global var ="<<var<<std::endl;
+	firstspace::display();
+	secondspace::display();
+	sample obj;
+	obj.show();
+	return 0;
+}
